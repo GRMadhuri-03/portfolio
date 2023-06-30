@@ -16,8 +16,7 @@ function AboutMe() {
           <br /> I am a Computer Science Engineering undergraduate at National
           Institute of Technology, Raipur. <br />
           I'm a Web developer and I am currently exploring other web
-          technologies like . <br />I do competitive programming on platforms
-          like{' '}
+          technologies. <br />I do competitive programming on platforms like{' '}
           <a href="https://www.codechef.com/users/madhuri_2020" target="_blank">
             codechef
           </a>{' '}
