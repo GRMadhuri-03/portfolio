@@ -1,0 +1,55 @@
+.profileContainer {
+  padding: 20px 120px;
+  text-align: center;
+  background-color: #efefef;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "Montserrat", sans-serif;
+  height: calc(100vh - 5vh);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profileParent h3 {
+  font-weight: normal;
+}
+
+.profileParent div {
+  font-size: 40px;
+}
+
+.text {
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+}
+
+div .downicon {
+  margin-top: 2rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+div .downicon:hover {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+@media (max-width: 800px) {
+  .profileContainer {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .profileParent div {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 440px) {
+  .profileParent div {
+    font-size: 23px;
+  }
+  .text {
+    font-size: 15px;
+  }
+}

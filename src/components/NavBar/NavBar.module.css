@@ -1,0 +1,99 @@
+.container {
+  font-family: "Montserrat", sans-serif;
+  background: #efefef;
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+  position: sticky;
+  top: 0;
+  padding: 20px 120px 20px;
+}
+
+ul {
+  float: right;
+  font-weight: 600;
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+ul li a {
+  position: relative;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+ul li a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s linear;
+}
+
+ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+label .btn,
+label .cancel {
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
+input {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    padding: 20px 20px 20px;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 944px) {
+  .container {
+    padding: 20px 20px 20px;
+    z-index: 2;
+  }
+  label .btn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    background-color: #efefef;
+    left: -101%;
+    right: 0;
+    top: 50px;
+    text-align: center;
+    transition: all 0.5s;
+    padding: 0;
+    list-style-type: none;
+    box-shadow: 1px 3px #d2cfcf;
+    border-radius: 0 0 30px 30px;
+  }
+  ul li {
+    display: block;
+    margin: 2rem 0;
+  }
+  input:checked ~ ul {
+    left: 0;
+  }
+  input:checked ~ label .btn {
+    display: none;
+  }
+  input:checked ~ label .cancel {
+    display: block;
+  }
+}

@@ -1,0 +1,52 @@
+.container {
+  padding: 4rem 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+  text-align: center;
+}
+
+.image {
+  width: 20rem;
+  border-radius: 100%;
+}
+
+.img {
+  margin: 2rem !important;
+}
+
+.details {
+  font-family: 'Merriweather', serif;
+  margin: 5rem 1rem 2rem 1rem !important;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 35px;
+  text-align: left;
+}
+
+.details a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.details a:hover {
+  color: black;
+}
+
+@media (max-width: 960px) {
+  .details {
+    margin: 0rem 1rem !important;
+    text-align: center;
+    font-size: 18px;
+  }
+  .container {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .img {
+    margin-bottom: 0 !important;
+  }
+}
