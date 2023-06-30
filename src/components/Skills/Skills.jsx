@@ -74,8 +74,8 @@ function Skills() {
                 <img
                   src={'https://i.postimg.cc/KjkpWgLp/icons8-c-96-1.png'}
                   alt="C++ Icon"
-                  width="48px"
-                  height="48px"
+                  width="86px"
+                  height="86px"
                 />
               </div>
               <div className={styles.skillsText}>C++</div>

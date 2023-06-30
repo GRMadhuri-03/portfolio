@@ -67,18 +67,18 @@ function Projects() {
         <Grid item component={Card} xs={8} md={4} className={styles.project}>
           <CardContent>
             <Typography gutterBottom>
-              <a href="https://keeper-app-kr.netlify.app/" target="_blank">
+              <a href="https://giithub-profile.netlify.app/" target="_blank">
                 <Typography
                   className={styles.icon}
                   color="textSecondary"
                   gutterBottom
                 >
-                  <h5>Note-taking Keeper application</h5>
+                  <h5>Github Profiles API based Application</h5>
                 </Typography>
                 <CardMedia
                   component="img"
                   height="200"
-                  // image={project2}
+                 image={'https://i.postimg.cc/zBn4Dh3L/Screenshot-352.png'}
                   alt="project"
                 />
               </a>
@@ -88,7 +88,7 @@ function Projects() {
               gutterBottom
               className={styles.projectText}
             >
-              An application using HTML, CSS, Javascript and ReactJS
+              An application using HTML, CSS, Javascript
             </Typography>
             <Typography
               variant="body1"
@@ -102,14 +102,14 @@ function Projects() {
             <div className={styles.iconContainer}>
               <a
                 className={styles.icon}
-                href="https://keeper-app-kr.netlify.app/"
+                href="https://giithub-profile.netlify.app/"
                 target="_blank"
               >
                 <i class="fas fa-globe fa-2x"></i>
               </a>{' '}
               <a
                 className={styles.icon}
-                href="https://github.com/karthikrudroju/keeper-app"
+                href="https://github.com/GRMadhuri-03/Github_Profiles_app"
                 target="_blank"
               >
                 <i class="fab fa-github fa-2x"></i>
@@ -120,18 +120,18 @@ function Projects() {
         <Grid item component={Card} xs={8} md={4} className={styles.project}>
           <CardContent>
             <Typography gutterBottom>
-              <a href="https://keeper-app-kr.netlify.app/" target="_blank">
+              <a href="https://grm3.netlify.app/" target="_blank">
                 <Typography
                   className={styles.icon}
                   color="textSecondary"
                   gutterBottom
                 >
-                  <h5>Note-taking Keeper application</h5>
+                  <h5>Tic-Tac-Toe</h5>
                 </Typography>
                 <CardMedia
                   component="img"
                   height="200"
-                  // image={project2}
+                  image={'https://i.postimg.cc/8cy73jR3/Screenshot-354.png'}
                   alt="project"
                 />
               </a>
@@ -155,14 +155,14 @@ function Projects() {
             <div className={styles.iconContainer}>
               <a
                 className={styles.icon}
-                href="https://keeper-app-kr.netlify.app/"
+                href="https://grm3.netlify.app/"
                 target="_blank"
               >
                 <i class="fas fa-globe fa-2x"></i>
               </a>{' '}
               <a
                 className={styles.icon}
-                href="https://github.com/karthikrudroju/keeper-app"
+                href="https://github.com/GRMadhuri-03/Tic-tac-toe"
                 target="_blank"
               >
                 <i class="fab fa-github fa-2x"></i>
@@ -173,18 +173,18 @@ function Projects() {
         <Grid item component={Card} xs={8} md={4} className={styles.project}>
           <CardContent>
             <Typography gutterBottom>
-              <a href="https://keeper-app-kr.netlify.app/" target="_blank">
+              <a href="https://grmadhuri-03.github.io/Random_Choice_Picker/" target="_blank">
                 <Typography
                   className={styles.icon}
                   color="textSecondary"
                   gutterBottom
                 >
-                  <h5>Note-taking Keeper application</h5>
+                  <h5>Random Choice Picker</h5>
                 </Typography>
                 <CardMedia
                   component="img"
                   height="200"
-                  // image={project2}
+                  image={'https://i.postimg.cc/ZR6Nnbrs/Screenshot-357.png'}
                   alt="project"
                 />
               </a>
@@ -194,7 +194,7 @@ function Projects() {
               gutterBottom
               className={styles.projectText}
             >
-              An application using HTML, CSS, Javascript and ReactJS
+              An application using HTML, CSS, Javascript 
             </Typography>
             <Typography
               variant="body1"
@@ -208,14 +208,14 @@ function Projects() {
             <div className={styles.iconContainer}>
               <a
                 className={styles.icon}
-                href="https://keeper-app-kr.netlify.app/"
+                href="https://grmadhuri-03.github.io/Random_Choice_Picker/"
                 target="_blank"
               >
                 <i class="fas fa-globe fa-2x"></i>
               </a>{' '}
               <a
                 className={styles.icon}
-                href="https://github.com/karthikrudroju/keeper-app"
+                href="https://github.com/GRMadhuri-03/Random_Choice_Picker"
                 target="_blank"
               >
                 <i class="fab fa-github fa-2x"></i>
