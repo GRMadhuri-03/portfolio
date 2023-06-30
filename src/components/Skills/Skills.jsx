@@ -1,7 +1,7 @@
 import { Typography, Grid, Card, CardContent } from '@material-ui/core';
 import styles from './Skills.module.css';
 import React from 'react';
-
+//import cplus from "../../images/icons8-c++-96.png";
 function Skills() {
   return (
     <div id="skills" className={styles.skillsContainer}>
@@ -72,10 +72,10 @@ function Skills() {
             <div className={styles.box}>
               <div className={styles.iconContainer}>
                 <img
-                  src={process.env.PUBLIC_URL + '/images/icons8-c++.svg'}
+                  src={'https://i.postimg.cc/KjkpWgLp/icons8-c-96-1.png'}
                   alt="C++ Icon"
-                  width="96px"
-                  height="96px"
+                  width="48px"
+                  height="48px"
                 />
               </div>
               <div className={styles.skillsText}>C++</div>
