@@ -9,7 +9,7 @@ function AboutMe() {
       <h1 className={styles.heading}>About Me</h1>
       <Grid container spacing={4} justifyContent="center">
         <Grid item xs={12} md={4} lg={3} className={styles.img}>
-          {/* //<img className={styles.image} src={imageURL} alt="profile-picture" /> */}
+          <img className={styles.image} src={'https://i.postimg.cc/zXn17VNX/f1cd9dcc-4cca-4681-82d5-20ddd94d8150.jpg'} alt="profile-picture" /> 
         </Grid>
         <Grid item xs={12} md={8} className={styles.details}>
           Hi, Myself Madhuri.
