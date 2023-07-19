@@ -18,7 +18,7 @@ function Profile() {
           Have the ability to build remarkable web applications.
         </p>
         <a
-          href="https://drive.google.com/file/d/1etK3yvGTiBgR3V1_5k1jKe1VTo6u5x3Z/view?usp=sharing"
+          href="https://drive.google.com/file/d/1MXdcvluToMHTWBn2WXxKooicRL3qWeg5/view"
           title="Resume"
           target="_blank"
         >
