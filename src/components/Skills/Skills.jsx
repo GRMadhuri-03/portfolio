@@ -51,19 +51,9 @@ function Skills() {
           <CardContent>
             <div className={styles.box}>
               <div className={styles.iconContainer}>
-                <i class="fab fa-node fa-5x"></i>
-              </div>
-              <div className={styles.skillsText}>Node</div>
-            </div>
-          </CardContent>
-        </Grid>
-        <Grid item component={Card} xs={4} md={2} className={styles.skill}>
-          <CardContent>
-            <div className={styles.box}>
-              <div className={styles.iconContainer}>
                 <i class="fas fa-database fa-5x"></i>
               </div>
-              <div className={styles.skillsText}>Databases</div>
+              <div className={styles.skillsText}>SQL</div>
             </div>
           </CardContent>
         </Grid>
